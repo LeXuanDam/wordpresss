@@ -1,0 +1,133 @@
+/*
+Theme Name: Yume
+Theme URI: https://google.com
+Author: anh Dam Gold
+Description: Bla bla bla
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.containers{
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    background-image: url(img/trangchu/background.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding:0;
+}
+.main{
+    min-width: 1000px;
+}
+
+
+#menu{
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 3%;
+    padding-left:30%;
+    z-index: 3;
+    max-height:90px;
+}
+#menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+#menu li {
+    display: inline-block;
+    margin-left: 3%;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+#dreamkingdom{
+    position: relative;
+    margin-top: -3%;
+    z-index:2;
+}
+#thongbao{
+    position: relative;
+    z-index:2;
+    width: 66.67%;
+    margin: auto;
+
+}
+
+#gioithieu{
+    position: relative;
+    z-index:2;
+}
+.gioithieu{
+    position: absolute;
+    top:5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.textGioithieu{
+    position: absolute;
+    top:15%;
+    bottom: 0;
+    left: 30%;
+    right: 0;
+    margin: auto;
+}
+#hotro{
+    position: relative;
+    z-index:3;
+}
+.hotro{
+    position: absolute;
+    top:10%;
+}
+.phone{
+    position: absolute;
+    top:18%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    margin: auto;
+}
+.mail{
+    position: absolute;
+    font-weight: bold;
+    top:28%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    margin: auto;
+}
+.thongbao{
+    position: absolute;
+    top:3%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+

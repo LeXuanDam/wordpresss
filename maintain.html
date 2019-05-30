@@ -1,0 +1,102 @@
+
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Dream Kingdom - Yume 100 VN</title>
+    <meta charset="utf-8">
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        background: url('maintenance.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .content{
+        color:white;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        top:45%;
+    }
+    #scrollThongBao{
+        height: 120vh;
+    }
+    @media(max-width: 1200px) {
+        body{
+            background-size: 100% 100%;
+        }
+        .thongbao{
+            height: 100vh;
+        }
+        .content{
+            color:white;
+            font-size:20px;
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            top:25%;
+        }
+        #scrollThongBao::-webkit-scrollbar {
+            width: 2%;
+        }
+        #scrollThongBao{
+            height: 70vh;
+        }
+    }
+    #scrollThongBao::-webkit-scrollbar {
+        width: 0.5%;
+    }
+
+    /* Track */
+    #scrollThongBao::-webkit-scrollbar-track {
+        background: #ee5d67;
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    #scrollThongBao::-webkit-scrollbar-thumb {
+        background: #9c4488;
+        border-radius: 10px;
+    }
+
+</style>
+<body style="">
+<div id="Tbao">
+    <!-- Modal content-->
+    <div class="col-sm-12 col-xs-12" style="margin: 0;padding: 0">
+        <div style="position: relative; z-index: 2;top:0;height: 75%;"
+             class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+            <img class="thongbao" style="position: absolute;width: 100%;z-index: 2;"
+                 src="thongbao.png">
+            <div style="position: relative; z-index: 2;"
+                 class="col-xs-8 col-xs-offset-1 col-sm-8 col-sm-offset-1 content" >
+                    <div class="col-xs-10 col-sm-10" style="text-align: justify;position:absolute;z-index: 3;overflow: auto" id="scrollThongBao">
+                        <p style="text-align: center">Các bạn thân mến,</p>
+                        Tiếp tục chuỗi sự kiện tuần trước và nhằm đảm bảo tốt hơn chất lượng của dịch vụ, cũng như để người chơi trải nghiệm tốt hơn khi tham gia Yume 100, BQT xin tiến hành bảo trì hệ thống, đồng thời mở ra nội dung mới như sau:<br>
+
+                        Thời gian bảo trì dự kiến:<br>
+
+                        Bắt đầu:  13:30 ngày 04/04/2019<br>
+                        Kết thúc: 15:00 ngày 04/04/2019<br>
+
+                        Nội dung chi tiết bảo trì vui lòng theo dõi tại trang chủ hoặc Fanpage.<br>
+                        - Trong thời gian bảo trì, người chơi vui lòng không đăng nhập game nhập vào game để tránh sự cố xảy ra.<br>
+                        - Sau khi bảo trì xong, bạn sẽ có thể đăng nhập vào game bình thường để tham gia các hoạt động trong game.<br>
+                        - Tất cả các sự kiện nêu trên đều chỉ bắt đầu từ sau khi kết thúc bảo trì.<br>
+
+                        BQT vô cùng xin lỗi vì sự bất tiện này!
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
